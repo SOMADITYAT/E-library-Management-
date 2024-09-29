@@ -1,13 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sidebar from "../Components/Sidebar";
-import Home from "../Pages/Home";
-import AddBookForm from "../Components/AddBookForm";
-import Contribute from "../Pages/Contribute";
-import BookList from "../Components/BookList";
-
+import Sidebar from "./Components/Sidebar";
+import Home from "./Pages/Home";
+import AddBookForm from "./Components/AddBookForm";
+import Contribute from "./Pages/Contribute";
+import BookList from "./Components/BookList";
 function App() {
- 
   return (
     <Router>
       <div className="flex">
